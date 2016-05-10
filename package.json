@@ -1,0 +1,24 @@
+{
+  "name": "bundlehash-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Insert hashed bundle names in to static HTML files in webpack",
+  "main": "dist/index.js",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "hash",
+    "static",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clear": "rm -rf dist/*",
+    "build": "npm run clear && NODE_ENV=production webpack --config webpack.production.config.js"
+  },
+  "author": "Alexander `Staltec` Prozorov",
+  "license": "MIT"
+}
