@@ -1,1 +1,1 @@
-"# bundlehash-webpack-plugin" 
+# bundlehash-webpack-plugin
